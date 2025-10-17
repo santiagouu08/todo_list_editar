@@ -1,9 +1,13 @@
 {
+  "homepage": "https://santiagouu08.github.io/todo_lis_editar",
+
   "name": "todo-list-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -31,4 +35,5 @@
     "tailwindcss": "^4.1.12",
     "vite": "^7.1.2"
   }
+  
 }
