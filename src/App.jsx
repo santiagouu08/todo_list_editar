@@ -29,7 +29,7 @@ export default function App() {
     setTareas(tareas.filter((tarea) => tarea.id !== id));
   };
 
-  // ✅ Iniciar edición
+
   const iniciarEdicion = (id) => {
     setTareas(
       tareas.map((tarea) =>
@@ -38,7 +38,6 @@ export default function App() {
     );
   };
 
-  // ✅ Guardar edición
   const guardarEdicion = (id, nuevoTexto) => {
     setTareas(
       tareas.map((tarea) =>
@@ -49,7 +48,7 @@ export default function App() {
     );
   };
 
-  // ✅ Cancelar edición
+
   const cancelarEdicion = (id) => {
     setTareas(
       tareas.map((tarea) =>
@@ -60,7 +59,7 @@ export default function App() {
 
   return (
     <div className="max-w-md mx-auto mt-10 p-2 rounded shadow">
-      <h1 className="text-3xl font-bold mb-5 text-center">LISTA DE TAREAS</h1>
+      <h1 className="text-3xl font-bold mb-5 text-center">LISTA DE TAREASSSSSSSSS</h1>
       <div className="flex gap-3 mb-5">
         <input
           className="flex-1 p-2 border rounded"
